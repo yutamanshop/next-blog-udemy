@@ -41,7 +41,7 @@ export default function Home({ allPostsData }:{ allPostsData: AllPostsData }) {
         </title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+        <p>`///////////////////////////////////////`</p>
       </section>
       <section>
       <h2>エンジニアのブログ</h2>
