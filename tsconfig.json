@@ -14,10 +14,11 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "baseUrl": "./",
     "paths": {
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "example.js", "pages/components/Layout.tsx", "node_modules/matter/src/matter.d.ts", "node_modules/@types/matter/matter.d.ts", "lib/post.tsx", "pages/posts/{id}.tsx"],
   "exclude": ["node_modules"]
 }
